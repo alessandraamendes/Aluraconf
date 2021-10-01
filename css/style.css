@@ -24,5 +24,131 @@
 }
 
 .header .main-menu .menu-item a:hover {
-    background-color: seagreen;
+  background-color: #48a3a6;
+}
+
+.header .jumbotron {
+  padding: 0 0 44px 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.header .evento {
+  color: white;
+  text-shadow: 4px 4px 10px black;
+}
+
+.header .jumbotron .titulo {
+  font-size: 3em;
+}
+
+.header .jumbotron .subtitulo {
+  font-size: 2.5em;
+  margin-top: 10px;
+  color: chartreuse;
+}
+
+.header .jumbotron .botao {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 25px 50px;
+  background-color: #48a3a6;
+  border-radius: 4px;
+}
+
+.header .jumbotron .inscricao {
+  margin-top: 30px;
+}
+
+.informacoes {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 30px;
+}
+
+.informacoes .titulo {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.informacoes .subtitulo {
+  margin-bottom: 20px;
+  font-size: 2em;
+}
+
+.informacoes .descricao {
+  margin-bottom: 20px;
+  font-size: 1em;
+  line-height: 35px;
+}
+
+.container {
+  width: 96%;
+  margin: 0 auto;
+}
+
+.palestrantes {
+  padding-top: 50px;
+  background: #ef7247;
+}
+
+.palestrantes .nome-palestrante {
+  text-align: center;
+  font-size: 2em;
+}
+
+.palestrantes .titulo {
+  color: white;
+  font-size: 3em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.palestrantes .subtitulo {
+  color: white;
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.palestrantes .ul-palestrantes {
+  text-align: center;
+}
+
+.palestrantes .li-palestrantes {
+  background: white;
+  display: inline-block;
+  float: initial;
+  margin: 0 16px 32px 0;
+  padding: 10px;
+  border-radius: 5px;
+  width: 220px;
+  vertical-align: top;
+}
+
+.palestrantes .minibio{
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.palestrantes .sociais{
+    margin-top: 15px;
+    font-size: 2em;
+}
+
+@media (min-width: 768px) {
+  .header .jumbotron {
+    font-size: 25px;
+    transition: font-size 0.5s;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header .jumbotron {
+    font-size: 50px;
+    transition: font-size 0.5s;
+  }
 }
