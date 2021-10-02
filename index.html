@@ -3,7 +3,11 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+   
     <title>Alura Conf</title>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -13,8 +17,8 @@
 
         <nav class="main-menu">
             <ul>
-                <li class="menu-item"><a href="#">Sobre</a></li>
-                <li class="menu-item"><a href="#">Palestrantes</a></li>
+                <li class="menu-item"><a href="#id-informacoes">Sobre</a></li>
+                <li class="menu-item"><a href="#id-palestrante">Palestrantes</a></li>
             </ul>
         </nav>
 
@@ -24,13 +28,13 @@
                 <h2 class="subtitulo">30Maio|RIO</h2>
             </section>
             <section class="inscricao">
-                <a href="#" class="botao">Inscreva-se</a>
+                <a href="#id-formulario" class="botao">Inscreva-se</a>
             </section>
         </div>
     </header>
     <main>
 
-        <section class="informacoes">
+        <section class="informacoes" id="id-informacoes">
             <div class="container">
                 <h1 class="titulo">Muito conteúdo: do frontend ao backend</h1>
                 <h2 class="subtitulo">30 de Maio de 2017 - na Cidade Maravilhosa</h2>
@@ -50,7 +54,7 @@
             </div>
         </section>
 
-        <section class="palestrantes">
+        <section class="palestrantes" id="id-palestrante">
             <div class="container">
                 <h2 class="titulo"> Palestrantes</h2>
                 <h3 class="subtitulo">Aprenda com palestrantes que são referência no mercado</h3>
@@ -95,12 +99,37 @@
             </div>
         </section>
 
+        <section class="formulario" id="id-formulario">
+            <div class="container">
+                <h2 class="titulo">Seus dados</h2>
+                <form>
+                    <div class="campos">
+                        <label class="campo-label">Nome</label>
+                        <input class="campo-input">
+                    </div>
+
+                    <div class="campos">
+                        <label class="campo-label">E-mail</label>
+                        <input class="campo-input">
+                    </div>
+
+                    <div class="bt-inscricao">
+                        <button class="botao">REALIZAR INSCRIÇÃO</button>
+                    </div>
+                </form>
+            </div>
+        </section>
 
     </main>
 
     <footer>
-
+        <img src="img/favicon.png" width="50" height="50">
+        <p class="copyright">&copy; Copyright Alessandra Mendes - 2021</p>
     </footer>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/transition.js"></script>
+
 </body>
 
 </html>

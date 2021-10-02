@@ -1,3 +1,6 @@
+.body{
+    font-family: 'Times New Roman', Times, serif;
+}
 .header {
   background: url(../img/destaque.jpeg) no-repeat;
   background-size: cover;
@@ -46,16 +49,6 @@
   font-size: 2.5em;
   margin-top: 10px;
   color: chartreuse;
-}
-
-.header .jumbotron .botao {
-  display: inline-block;
-  color: white;
-  text-decoration: none;
-  font-size: 20px;
-  padding: 25px 50px;
-  background-color: #48a3a6;
-  border-radius: 4px;
 }
 
 .header .jumbotron .inscricao {
@@ -128,16 +121,70 @@
   vertical-align: top;
 }
 
-.palestrantes .minibio{
-    margin-top: 15px;
-    font-weight: bold;
-    font-size: 1.5em;
+.palestrantes .minibio {
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 1.5em;
 }
 
-.palestrantes .sociais{
-    margin-top: 15px;
-    font-size: 2em;
+.palestrantes .sociais {
+  margin-top: 15px;
+  font-size: 2em;
 }
+
+.formulario {
+  margin-top: 30px;
+}
+
+.formulario .titulo {
+  font-size: 1.7em;
+  color: #ef7247;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.campos{
+    margin-bottom: 25px;
+}
+
+.formulario .campos {
+  display: block;
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.campos .campo-input {
+    display: block;
+    width: 100%;
+    font-size: 1.5em;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 1px 1px 5px #48a3a6;
+}
+
+.botao {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 25px 50px;
+    background-color: #48a3a6;
+    border-radius: 4px;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+.bt-inscricao {
+    text-align: center;
+}
+
+
+footer {
+    margin: 25px 25px;
+    text-align: center;
+    font-weight: bold;
+  }
 
 @media (min-width: 768px) {
   .header .jumbotron {
